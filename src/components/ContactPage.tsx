@@ -65,7 +65,7 @@ export default function ContactPage() {
                 required
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full bg-blue-50 text-gray-900 text-base px-5 py-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent transition-all duration-300"
+                className="w-full bg-gray-50 text-gray-900 text-base px-5 py-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent transition-all duration-300"
               />
             </div>
 
@@ -77,7 +77,7 @@ export default function ContactPage() {
                 required
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full bg-blue-50 text-gray-900 text-base px-5 py-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent transition-all duration-300"
+                className="w-full bg-gray-50 text-gray-900 text-base px-5 py-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent transition-all duration-300"
               />
             </div>
 
@@ -90,7 +90,7 @@ export default function ContactPage() {
                 rows="6"
                 value={formData.message}
                 onChange={handleChange}
-                className="w-full bg-blue-50 text-gray-900 text-base px-5 py-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent transition-all duration-300 resize-none"
+                className="w-full bg-gray-50 text-gray-900 text-base px-5 py-4 rounded-lg focus:outline-none focus:ring-2 focus:ring-accent transition-all duration-300 resize-none"
               />
               <p className="text-xs text-gray-600 mt-2 text-right">
                 {characterCount}/{maxCharacters} characters
